@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+	.bg-1 { 
+	    background-color: #00CED1; /* turqoise */
+	    color: #ffffff;
+	}
+
+	.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+	}
+	.bg-3 { 
+	    background-color: #ffffff; /* White */
+	    color: #555555;
+	}
+	.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+	}
+	.container-fluid {
+	    padding-top: 70px;
+	    padding-bottom: 70px;
+	}
+	.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+	}
+
+	.navbar-nav li a:hover {
+	    color: #1abc9c !important;
+	}
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid bg-1 text-center">
+	<h3>Who Am I?</h3>
+	<img src="outlook.jpg" class="img-circle" alt="Bird" width="400" height="400">
+	<h3>I'm an albatross</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3>What Am I?</h3>
+  <p>Software Developer</p>
+  	<a href="http://ca.lmgtfy.com/?q=samprity+kashyap" class="btn btn-default btn-lg">
+  		<span class="glyphicon glyphicon-search"></span> Search
+	</a>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Where To Find Me?</h3>
+    <div class="row">
+    <div class="col-sm-4">
+      <p>FaceBook</p>
+      <a href="https://www.facebook.com/samprity.kashyap"><img src="fb.png" alt="Image" class="img-responsive img-thumbnail" style="width:50%"></a>
+    </div>
+    <div class="col-sm-4">
+      <p>Github</p>
+      <a href="https://github.com/samprity"><img src="git.gif" alt="Image" class="img-responsive img-thumbnail" style="width:50%"></a>
+    </div>
+    <div class="col-sm-4"> 
+      <p>LinkedIn</p>
+      <a href="https://ca.linkedin.com/in/samprity-kashyap-3938326a"><img src="li.png" alt="Image" class="img-responsive img-thumbnail" style="width:50%"></a>
+    </div>
+  </div>
+</div
+</body>
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://ca.linkedin.com/in/samprity-kashyap-3938326a">Samprity kashyap</a></p> 
+</footer>
+</html>
